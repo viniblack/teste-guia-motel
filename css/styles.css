@@ -9,6 +9,10 @@ body {
   --bs-gutter-x: 0;
 }
 
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
 
 /* Navbar */
 
@@ -24,7 +28,7 @@ body {
   font-weight: bold;
 
   background-color: #F16136;
-  border: 1px solid rgba(128, 128, 128, 0.5);
+  border: 1px solid #E6E6E6;
   border-radius: 5rem;
   color: white;
   margin: .3rem;
@@ -40,7 +44,7 @@ body {
 /* Home */
 
 .home {
-  background-image: url('../img/local.jpg');
+  background-image: url('../img/restaurant.png');
   background-size: 100rem 50rem;
   padding: 9rem 0;
 }
@@ -93,7 +97,7 @@ hr {
 .opcoes a {
   font-weight: bold;
 
-  border: 1px solid rgba(128, 128, 128, 0.5);
+  border: 1px solid #9A9A9A;
   border-radius: 5rem;
   color: rgb(167, 167, 167);
   margin: .3rem;
@@ -106,7 +110,7 @@ hr {
 }
 
 .sites-reservas img {
-  border: 1px solid rgba(128, 128, 128, 0.5);
+  border: 1px solid #E6E6E6;
   margin: .3rem;
 }
 
@@ -122,4 +126,19 @@ hr {
 .scroll-page img {
   margin: 0 .5rem;
   width: 1.5rem;
+}
+
+.beneficios{
+  display: flex;
+  justify-content: center;
+}
+
+.beneficios h2{
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #BABABA;
+  font-size: 2rem;
+  margin: 1rem;
+  padding-top: 3rem;
 }
