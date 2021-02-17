@@ -128,12 +128,12 @@ hr {
   width: 1.5rem;
 }
 
-.beneficios{
+.beneficios {
   display: flex;
   justify-content: center;
 }
 
-.beneficios h2{
+.beneficios h2 {
   text-transform: uppercase;
   text-align: center;
 
@@ -141,4 +141,44 @@ hr {
   font-size: 2rem;
   margin: 1rem;
   padding-top: 3rem;
+}
+
+
+/* Carousel */
+.carousel-control-next,
+.carousel-control-prev {
+  text-decoration: none;
+
+  color: #fff;
+  opacity: .9;
+  outline: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  background-color: white;
+  background-image: none;
+  height: 3rem;
+  opacity: 1;
+  width: 2rem;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+
+  color: #f16136;
+  font-size: 1.5rem;
+  transform: matrix(2, 0, 0, 3, 0, 0);
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+
+  color: #f16136;
+  font-size: 1.5rem;
+  transform: matrix(2, 0, 0, 3, 0, 0);
 }
