@@ -2,16 +2,18 @@
   --border: 1px solid #E6E6E6;
   --bordar-radius: 5rem;
   --color-primary: #ffffff;
-  --color-secondary: #f13636;
+  --color-secondary: #F16136;
   --font-color: #ffffff;
 
   color: #808080;
   font-family: roboto;
+  background-color: #F0F0F0;
 
 }
 
 body {
-  height: 150rem;
+  height: 250rem;
+  background-color: #F0F0F0;
 }
 
 .row {
@@ -53,6 +55,7 @@ body {
 
 .home {
   background-image: url('../img/restaurant.png');
+  background-repeat: no-repeat;
   background-size: 100rem 50rem;
   padding: 9rem 0;
 }
@@ -251,12 +254,63 @@ hr {
 }
 
 .todos-quartos {
+  display: inline-block;
+  position: absolute;
   left: 3rem;
-  top: 17rem;
+  top: 20rem;
+  z-index: 1;
 }
 
 .todos-quartos a {
   border: 2px solid #9A9A9A;
   color: #9A9A9A;
   padding: .5rem 3rem;
+}
+
+/* Local */
+
+.local {
+  background-color: #28282a;
+  color: var(--font-color);
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.local p {
+  display: flex;
+
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 2rem 0rem 2rem 1rem;
+}
+
+/* Promoções */
+
+.image-promocoes {
+  height: 20rem;
+
+}
+
+.promocoes {
+  margin-top: 3rem;
+}
+
+.promo img:first-child {
+  height: 25rem;
+  margin-left: 4rem;
+}
+
+/* Maps */
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.maps {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 1rem;
+
 }
