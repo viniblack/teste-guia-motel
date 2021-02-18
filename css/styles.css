@@ -12,7 +12,6 @@
 }
 
 body {
-  height: 250rem;
   background-color: #F0F0F0;
 }
 
@@ -305,12 +304,68 @@ hr {
 .map {
   display: flex;
   justify-content: center;
+
   margin-top: 2rem;
 }
 
 .maps {
-  width: 22rem;
-  height: 22rem;
   border-radius: 1rem;
+  height: 22rem;
+  width: 22rem;
+  z-index: 2;
+}
 
+.endereco {
+  background-color: #272729;
+  display: inline-block;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+  position: absolute;
+  top: 22rem;
+  z-index: 1;
+}
+
+.endereco p {
+  text-align: center;
+
+  color: var(--font-color);
+  font-weight: 600;
+  margin: 0 5rem;
+}
+
+.endereco-rota {
+  display: flex;
+  justify-content: center;
+
+  margin-top: .5rem;
+}
+
+.endereco-rota a {
+  border: none;
+  text-align: center;
+  width: 20rem;
+}
+
+/* Footer */
+
+.footer {
+  display: inline-block;
+
+  background-color: #707070;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  position: absolute;
+  top: 8rem;
+  width: 100%;
+}
+
+.contatos .endereco-rota {
+  flex-direction: column;
+  
+  margin: 0 2rem;
+}
+
+.secondary a{
+  background-color: #ffffff00;
+  border: var(--border);
 }
