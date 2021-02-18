@@ -1,13 +1,13 @@
 :root {
+  --border: 1px solid #E6E6E6;
   --bordar-radius: 5rem;
-  --font-color: #ffffff;
   --color-primary: #ffffff;
   --color-secondary: #f13636;
-  --border: 1px solid #E6E6E6;
+  --font-color: #ffffff;
 
   color: #808080;
   font-family: roboto;
-  
+
 }
 
 body {
@@ -213,18 +213,18 @@ hr {
 }
 
 .image-quartos {
-  width: 20rem;
   height: 17rem;
-  margin: 1rem;
   filter: brightness(70%);
+  margin: 1rem;
+  width: 20rem;
 }
 
 .quartos-info {
   display: flex;
   flex-direction: column;
+  font-weight: 500;
   position: absolute;
   text-align: center;
-  font-weight: 500;
 
   color: var(--font-color);
   left: 6rem;
@@ -247,13 +247,12 @@ hr {
   border-radius: var(--bordar-radius);
   color: var(--font-color);
   margin: 2.5rem .3rem;
-
   padding: .5rem 3rem;
 }
 
 .todos-quartos {
-  top: 17rem;
   left: 3rem;
+  top: 17rem;
 }
 
 .todos-quartos a {
