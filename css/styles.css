@@ -54,8 +54,9 @@ body {
 
 .home {
   background-image: url('../img/restaurant.png');
+  background-position: -25rem 0rem;
   background-repeat: no-repeat;
-  background-size: 100rem 50rem;
+  background-size: cover;
   padding: 9rem 0;
 }
 
@@ -229,7 +230,7 @@ hr {
   text-align: center;
 
   color: var(--font-color);
-  left: 6rem;
+  left: 5.5rem;
   top: 8.5rem;
 }
 
@@ -286,17 +287,13 @@ hr {
 /* Promoções */
 
 .image-promocoes {
-  height: 20rem;
+  height: 25rem;
+  margin-left: 4rem;
 
 }
 
 .promocoes {
   margin-top: 3rem;
-}
-
-.promo img:first-child {
-  height: 25rem;
-  margin-left: 4rem;
 }
 
 /* Maps */
@@ -351,9 +348,9 @@ hr {
 .footer {
   display: inline-block;
 
-  background-color: #707070;
-  padding-top: 3rem;
-  padding-bottom: 4rem;
+  background-color: #373738;
+  padding-top: 1.5rem;
+  padding-bottom: 5rem;
   position: absolute;
   top: 8rem;
   width: 100%;
@@ -361,11 +358,11 @@ hr {
 
 .contatos .endereco-rota {
   flex-direction: column;
-  
-  margin: 0 2rem;
+
+  margin: 0 1.5rem;
 }
 
-.secondary a{
+.secondary a {
   background-color: #ffffff00;
   border: var(--border);
 }
